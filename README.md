@@ -39,7 +39,8 @@ I utilized Encoder-Decoder architecture for the task. The encoder is a 1-layer B
 
 You can observe how the model decided to generate the output based on the input. For each pair of words from input and output the attention weight is visualized.
 
-![](pictures/attention_output.png)
+![image](https://user-images.githubusercontent.com/61462986/230452855-658523f6-78db-4515-98e5-24daf8afe5b9.png)
+
 
 ### Tips for training the model:
 
@@ -50,7 +51,7 @@ You can observe how the model decided to generate the output based on the input.
 * I applied dropout with a chance of 0.2 to encoder's input word embeddings.
 * Instead of feeding a whole sequence to the network, I have fed time step x of a batch of data to the network, as depicted below:
 
-![picture is from pytorch chatbot toturial](pictures/seq2seq_batches.png)
+![image](https://user-images.githubusercontent.com/61462986/230452903-d7adc6ed-d7cd-445f-80b8-c15aa90636fa.png)
 
 ### Setup:
 
