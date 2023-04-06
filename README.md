@@ -33,7 +33,7 @@ Cameron.
 
 I utilized Encoder-Decoder architecture for the task. The encoder is a 1-layer Bi-directional GRU with 256 units and the decoder is a 2-layer Uni-directional GRU with 512 units. I adopted Bahdanau Attention mechanism as my attention model.
 
-![](pictures/encoder_decoder.png)
+![image](https://user-images.githubusercontent.com/61462986/230452719-1e529124-73fb-446e-91b6-75d81487e224.png)
 
 ### Results:
 
